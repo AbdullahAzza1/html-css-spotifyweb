@@ -25,10 +25,27 @@ main > nav{
     flex-direction: column;
     padding-left: 1%;
 }
-
+.scroll-song{
+    display: flex;
+    height: 40%;
+    margin-bottom: 2%;
+}
+.brano{
+    width: 16%;
+    text-align: center;
+    margin-right: 2%;
+}
+.image{
+    width: 100%;
+}
 main > section{
     height: 100%;
     width: calc(100% - 15rem);
+    overflow: auto;
+}
+.image-artits{
+    width: 100%;
+    border-radius: 50%;
 }
 .nav{
     display: flex;
