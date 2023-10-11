@@ -30,7 +30,15 @@ main > section{
     height: 100%;
     width: calc(100% - 15rem);
 }
-
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+.text-nav{
+    margin: 0 2%;
+}
 section > nav{
     height: 15%;
     background: black;
@@ -59,7 +67,17 @@ footer{
 .play-song{
     display: flex;
     margin-left: 1%;
-    width: 10%
+    width: 10%;
+    align-items: center;
+}
+.name-song{
+    margin-right: 4rem;
+}
+footer > div > i{
+    margin-right: 15px;
+}
+.control-pannel{
+    font-size: 25px;
 }
 .logo-spotify{
     width: 60%;
