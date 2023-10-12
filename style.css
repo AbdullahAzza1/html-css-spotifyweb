@@ -37,9 +37,16 @@ main > nav{
     width: 16%;
     text-align: center;
     margin-right: 2%;
+
 }
+
+
 .image{
     width: 100%;
+    transition: 1s;
+}
+.image:hover{
+    filter: brightness(0.5);
 }
 main > section{
     height: 100%;
