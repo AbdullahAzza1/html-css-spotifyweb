@@ -25,6 +25,9 @@ main > nav{
     flex-direction: column;
     padding-left: 1%;
 }
+.name-playlist{
+    overflow: auto;
+}
 .scroll-song{
     display: flex;
     height: 40%;
@@ -95,6 +98,10 @@ footer > div > i{
 }
 .control-pannel{
     font-size: 25px;
+    text-align: center;
+}
+.icona-volume{
+    margin: 0 3%;
 }
 .logo-spotify{
     width: 60%;
@@ -110,4 +117,33 @@ nav > i {
 .account{
     padding-top: 10rem;
 }
-
+.linea{
+    background-color: #5a5a5a;
+    width: 16rem;
+    height: 6px;
+    border-radius: 25%;
+    margin: 6%;
+}
+.linea-piccola{
+    background-color: #c1c1c1;
+    width: 3rem;
+    height: 6%;
+    border-radius: 25%;
+}
+.icone-destra{
+    display: flex;
+    align-items: center;
+}
+.linea-volume{
+    background-color: #5a5a5a;
+    width: 10rem;
+    height: 6px;
+    border-radius: 25%;
+    margin: 6%;
+}
+.linea-p-volume{
+    background-color: #c1c1c1;
+    width: 3rem;
+    height: 6%;
+    border-radius: 25%;
+}
