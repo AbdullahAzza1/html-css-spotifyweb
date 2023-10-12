@@ -9,9 +9,9 @@ body{
     font-size: 13px;
     height: 100vh;
     background: #151b25;
-    color: white;
+    color: rgb(117, 116, 116);
+    transition: 1s;
 }
-
 main{
     height: calc(100% - 90px);
     display: flex;
@@ -154,3 +154,14 @@ nav > i {
     height: 6%;
     border-radius: 25%;
 }
+@media screen and ( max-width:768px ) {
+    .main{
+        height: 100%;
+        
+    }
+    
+    .scroll-song{
+        flex-wrap: wrap;
+    }
+}
+    
