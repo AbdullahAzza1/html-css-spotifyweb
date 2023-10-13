@@ -40,7 +40,12 @@ main > nav{
     margin-right: 10px;
 
 }
-
+.spotify-small{
+    font-size: 5px;
+    margin: 8px 0;
+    background-image: url(img/logo-small.svg);
+    display: none;
+}
 
 .image{
     width: 100%;
@@ -202,6 +207,7 @@ nav > i {
         font-size: 14px;
         text-align: center;
         width: 7rem;
+        margin-left: 80px;
     }
     footer > div > i {
         margin-right: 5px;
@@ -217,6 +223,7 @@ nav > i {
         color: white;
         border-color: white;
     }
+    
 }  
   /*xs
 */
@@ -258,7 +265,7 @@ nav > i {
         padding-top: 6%;
     }
     .account {
-        padding-top: 15rem;
+        padding-top: 19rem;
     }
     .nome-playlist {
         display: flex;
@@ -282,12 +289,19 @@ nav > i {
         font-size: 5px;
         margin: 8px 0;
         background-image: url(img/logo-small.svg);
+        
     }
     .icone-igr{
         font-size: 19px;
         margin-bottom: 10px;
     }
     .account {
-        padding-top: 20rem;
+        padding-top: 21rem;
+    }
+    .control-pannel {
+        font-size: 9px;
+        text-align: center;
+        width: 5rem;
+        margin-left: 60px;
     }
 }  
